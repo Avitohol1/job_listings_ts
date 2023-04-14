@@ -1,0 +1,57 @@
+.filters {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    top: 0;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-left: 0.5em;
+    background-color: var(--light-grayish-cyan-filter-tablets);
+    border-radius: 3px 0 0 3px;
+    color: var(--desaturated-dark-cyan);
+}
+
+.deleteBtn {
+    background-color: var(--desaturated-dark-cyan);
+    color: #fff;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.deleteBtn:hover {
+    background-color: var(--very-dark-grayish-cyan);
+}
+
+.clearBtn {
+    position: absolute;
+    right: 1em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--dark-grayish-cyan);
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: var(--transition);
+}
+
+.clearBtn:hover {
+    color: var(--desaturated-dark-cyan);
+}

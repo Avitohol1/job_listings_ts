@@ -1,0 +1,26 @@
+.jobs {
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    background-color: var(--light-grayish-cyan);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 3em 0;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .jobs {
+        width: 75%;
+        gap: 30px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+    .jobs {
+        width: 90%;
+        gap: 40px;
+        padding-top: 6em;
+    }
+}
