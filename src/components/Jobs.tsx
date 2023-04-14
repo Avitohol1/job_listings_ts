@@ -26,7 +26,6 @@ const Jobs = () => {
                     color="hsl(180, 29%, 50%)"
                     loading={isLoading}
                     size={100}
-                    aria-label="Loading Spinner"
                     data-testid="loader"
                 />
             </div>
